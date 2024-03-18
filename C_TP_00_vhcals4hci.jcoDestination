@@ -1,9 +1,11 @@
 #template : SAP S/4HANA 2022 FPS02 Fully-Activated Appliance
 # C_TP_00_vhcals4hci is the default activated destination
 # doc : https://community.sap.com/t5/technology-blogs-by-sap/websocket-rfc-to-cloud-using-sap-business-connector/ba-p/13527324
-jco.client.lang=EN
+
+jco.client.ashost=vhcals4hci.dummy.nodomain
+jco.client.user=SAP
 jco.client.passwd=fXj4Dfscc;8e?]ag}y8GvftA=G`zAEd`vH6zHIx_lAbps98t
+
 jco.client.sysnr=0
 jco.client.client=100
-jco.client.user=SAP
-jco.client.ashost=vhcals4hci.dummy.nodomain
+jco.client.lang=EN
